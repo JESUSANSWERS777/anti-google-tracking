@@ -1,8 +1,8 @@
 {
   "manifest_version":2,
 
-  "name": "GoogleNoFarm",
-  "description": "Prevents link modification in Google's search results. It also adds",
+  "name":"Anti Google Tracking",
+  "description": "Prevents link modification in Google's search results. It also adds a target and title attribute.",
   "version": "1.0",
   "author":"Draphar",
   "homepage_url":"https://github.com/Draphar/anti-google-tracking/",
