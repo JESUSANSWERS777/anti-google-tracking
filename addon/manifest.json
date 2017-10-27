@@ -1,22 +1,22 @@
-{
+﻿{
   "manifest_version":2,
-
   "name":"Anti Google Tracking",
-  "description": "Prevents link modification in Google's search results. It also adds a target and title attribute.",
-  "version": "1.0",
+  "description":"Prevents link modification in Google's search results. It also adds a target and title attribute.",
+  "version":"1.0",
   "author":"Draphar",
   "homepage_url":"https://github.com/Draphar/anti-google-tracking/",
-  "browser_action": {
+  "browser_action":{
     "default_popup": "menu.html",
-    "default_title":"Anti Google Tracking"
+    "default_title":"Anti Google Tracking",
+    "default_icon":"icon_128.png"
   },
-  "permissions": [
+  "permissions":[
     "activeTab",
     "storage"
   ],
-  "content_scripts": [
+  "content_scripts":[
     {
-      "matches": [
+      "matches":[
         "http://www.google.com/*", "https://www.google.com/*",
         "http://www.google.ad/*", "https://www.google.ad/*",
         "http://www.google.ae/*", "https://www.google.ae/*",
